@@ -1,6 +1,6 @@
 {
-  "name": "Solana Dev",
-  "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "name": "Solana Development",
+  "image": "mcr.microsoft.com/devcontainers/rust:1",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "18"
@@ -10,9 +10,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "rust-lang.rust-analyzer",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "rust-lang.rust-analyzer"
       ]
     }
   }
